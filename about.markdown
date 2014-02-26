@@ -1,22 +1,13 @@
 ---
-title: about
+title: 关于我
 layout: page
 ---
 
-a
+努力的成果
 
-> Minimalist | Appleist | Unixer | Coder
+> [github](https://github.com/michaelxv)
 
-who involved in 
+闲暇的唠嗑
 
-> [github](https://github.com/waynezhang)
+> [@小小小小树被人抢占人](http://weibo.com/michaelxv)
 
-mail 
-
-> echo srvpqxfbyqfvpdtkbjwt | tr yxwvtsrqpkjfdb zuonmlihgeca@.
-
-or follow 
-
-> [@o_lll](https://twitter.com/#!/o_lll)
-
-to reach me
