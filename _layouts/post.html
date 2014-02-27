@@ -21,25 +21,21 @@ layout: default
   <section class="post">
   {{ content }}
   </section>
-  {% if page.guid %}
   <script type="text/javascript">
       var disqus_shortname = '{{ site.disqus }}';
       var disqus_identifier = '{{ page.guid }}';
 
       function leave_comment() {
-          var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-          dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
-          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-          $("#leave_comment_link").css("display", "none");
-          $("#collapse_comment_link").css("display", "");
+          $("#comment").show();
+          $("#leave_comment_link").hide();
+          $("#collapse_comment_link").show();
       };
       function collapse_comment() {
-          // document.getElementById("disqus_thread").innerHTML = '';
+			
           $("#disqus_thread").slideUp(400, function() {
-              $("#disqus_thread").empty();
-              $("#leave_comment_link").css("display", "");
-              $("#collapse_comment_link").css("display", "none");
-              $("#disqus_thread").css("display", "");
+		      $("#comment").hide();
+              $("#leave_comment_link").show();
+              $("#collapse_comment_link").hide();
           });
       };
   </script>
@@ -62,8 +58,9 @@ layout: default
     </span>
   </div>
   <section class="comment">
-  <div id="disqus_thread"></div>
-  <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  <!-- UY BEGIN -->
+  <div id="uyan_frame"></div>
+  <script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js?uid=1898335"></script>
+  <!-- UY END -->
   </section>
-  {% endif %}
 </article>

@@ -1,12 +1,11 @@
 markdown: rdiscount
 pygments: true
 permalink: /:year/:month/:day/:title.html
-name: "小树去哪儿"
+name: "Trees"
 markdown: rdiscount
 
 author: "小树"
 atom-baseurl: "http://xushucan.cn"
-disqus: "gopherwood"
 
 navigations:
   - title: 文章
@@ -15,13 +14,13 @@ navigations:
   - title: 标签
     class: fa fa-tags
     href: /tags.html
-  - title: 关于我
+  - title: 关于
     class: fa fa-user
     href: /about.html
-  - title: 画廊
+  - title: 相册
     class: fa fa-film
     href: javascript:alert('待推出')
-  - title: 链接
+  - title: 收藏
     class: fa fa-link
     href: /links.html
   - title: 订阅
