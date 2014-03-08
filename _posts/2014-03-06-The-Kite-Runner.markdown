@@ -2,7 +2,6 @@
 title: '追风筝的人'
 layout: post
 tags:
-    - 成长
 	- 电影
 ---
 
