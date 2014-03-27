@@ -1,6 +1,6 @@
 ---
 title: 'goal'
-layout: post
+layout: 第半个XSS
 tags:
     - 生活
 ---
