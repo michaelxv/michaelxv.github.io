@@ -1,5 +1,5 @@
 ---
-title: 'goal'
+title: '第半个XSS'
 layout: 第半个XSS
 tags:
     - 生活
